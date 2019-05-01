@@ -1,0 +1,42 @@
+/* 登录界面 */
+img.policeBadge{display: block;width: 200px;margin: auto;}
+h1.title{font:bold 3.125rem/2 'Microsoft YaHei';text-align: center;color: #002A80;letter-spacing: .5rem;}
+.loginBox{width: 400px;background-color: rgba(255,255,255,.8);padding: 0 70px 50px;border: 1px solid #c4c4c4;border-radius: 10px;box-shadow: 0 0 8px #c4c4c4;margin: 1rem auto 0;}
+.loginBox p.title{font: 1.375rem/2.875 'Microsoft YaHei';text-align: center;color: #656565;margin-bottom: 1rem;}
+.loginBox .inputs{border: 1px solid #ccc;border-radius: 10px;overflow: hidden;background-color: rgba(255,255,255,.7);}
+.loginBox .inputs input{border: none;width: 100%;height: 31px;padding-left: 35px;font: 14px/100% "Microsoft YaHei";}
+.loginBox .inputs input:not(:last-child){border-bottom: 1px solid #ccc;}
+.loginBox .inputs input.icon1{background: url("../images/iconPolice.png") no-repeat 4%/1.2rem;}
+.loginBox .inputs input.icon2{background: url("../images/iconPassword.png") no-repeat 4%/1.2rem;}
+.loginBox .inputs input.icon3{background: url("../images/iconEnterprise.png") no-repeat 4%/1.2rem;}
+.loginBox .handle{padding: 1rem 0;font: .7rem/.8rem 'Microsoft YaHei';}
+.loginBox .handle label{cursor: pointer;}
+.loginBox .handle input[type="checkbox"]{width: .8rem;height: .8rem;-webkit-appearance: none;-moz-appearance: none;appearance: none;border: 1px solid #2c2c2c;border-radius: 3px;float: left;margin-right: .3rem;position: relative;cursor: pointer;}
+.loginBox .handle input[type="checkbox"]:checked:before{content: '✔';position: absolute;top: 40%;left: 50%;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.loginBox button{width: 100%;height: 32px;text-align: center;font: 1rem/30px 'Microsoft YaHei';background-color: #4A8FDB;color: #fff;border-radius: 5px;}
+
+
+
+
+body{background: url("../images/bg.jpg") no-repeat bottom/100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
